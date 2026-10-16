@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#080f18">
+  <meta name="description" content="FOGADÁS AI: fejlesztés alatt álló, adatvezérelt sportfogadási kutató- és döntéstámogató rendszer. Ellenőrizhető ajánlások, naplózás és eredménykövetés – jelenleg tesztüzemben.">
+  <title>FOGADÁS AI – Adatvezérelt sportfogadási kutatás</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="brand" href="index.html" aria-label="FOGADÁS AI – Kezdőlap"><span class="brand-mark" aria-hidden="true">F</span> FOGADÁS <span class="green">AI</span></a>
+      <button class="menu-toggle" aria-label="Menü megnyitása" aria-controls="primary-navigation" aria-expanded="false">☰</button>
+      <nav class="nav-links" id="primary-navigation" aria-label="Fő navigáció">
+        <a href="#bemutatkozas">A rendszerről</a>
+        <a href="#mukodes">Hogyan működik?</a>
+        <a href="#biztonsag">Adatvédelem</a>
+        <a href="adatvedelem.html" class="mini-btn">Adatvédelmi tájékoztató ↗</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero" id="bemutatkozas">
+      <div class="wrap hero-grid">
+        <div>
+          <div class="eyebrow"><span class="dot"></span> Fejlesztés alatt · TEST / SHADOW</div>
+          <h1>Elemzésből <span class="green">megalapozottabb</span> döntés.</h1>
+          <p class="hero-lead">A FOGADÁS AI egy fejlesztés alatt álló, adatvezérelt sportfogadási kutató- és döntéstámogató rendszer. Célja, hogy a mérkőzéseket, piacokat és oddsokat következetesen értékelje, az ajánlásokat megőrizze, és az eredményeket átláthatóvá tegye.</p>
+          <div class="hero-actions">
+            <a href="#mukodes" class="btn btn-main">Ismerd meg a rendszert <span aria-hidden="true">→</span></a>
+            <a href="adatvedelem.html" class="btn btn-secondary">Adatkezelési információk</a>
+          </div>
+          <p class="micro">Privát használatra tervezett projekt. Jelenleg nem nyilvános fogadási szolgáltatás; nincs engedélyezett automatikus, valódi pénzes fogadásvégrehajtás.</p>
+        </div>
+        <div class="board-shell" aria-label="FOGADÁS AI tervezett kezelőfelületének szemléltető ábrája – élő fogadási adatok nélkül">
+          <div class="board-top"><strong>FOGADÁS <span class="green">AI</span> <span style="color:#7391a3;font-size:.73rem;font-weight:450">/ áttekintés</span></strong><span class="board-status"><span class="dot"></span> DEMÓ NÉZET</span></div>
+          <p class="board-subtitle">Mit fogadjak ma?</p>
+          <div class="preview-cols">
+            <div class="preview-metric"><span class="value">—</span><span class="unit">Aktuális<br>ajánlások</span></div>
+            <div class="preview-metric"><span class="value">—</span><span class="unit">Lezárt<br>eredmények</span></div>
+            <div class="preview-metric"><span class="value">—</span><span class="unit">Igazolt<br>ROI</span></div>
+          </div>
+          <p class="board-subtitle">Tervezett funkciók</p>
+          <div class="preview-row"><span><strong>Piacfigyelés</strong><p>Időbélyegzett oddsok ellenőrzése</p></span><span class="pill">TERVEZETT</span></div>
+          <div class="preview-row"><span><strong>Ajánlásnapló</strong><p>Visszakereshető döntési előzmények</p></span><span class="pill">CÉLFUNKCIÓ</span></div>
+          <div class="preview-row"><span><strong>Eredménynaptár</strong><p>Valós és virtuális eredmények külön</p></span><span class="pill">CÉLFUNKCIÓ</span></div>
+          <div class="preview-footer"><span>Bizonyítható adatok • Átlátható döntések</span><span>FOGADÁS AI / KONCEPCIÓ</span></div>
+        </div>
+      </div>
+    </section>
+    <section class="section section-muted" id="mukodes">
+      <div class="wrap">
+        <div class="section-intro"><span class="kicker">A vízió</span><h2>Kevesebb találgatás.<br>Több ellenőrizhető információ.</h2><p>A fejlesztés egyetlen rendszerben kapcsolja össze a kutatást, a modellezést, az ajánlások naplózását és a teljesítmény követését.</p></div>
+        <div class="cards">
+          <article class="feature"><span class="feature-icon" aria-hidden="true">⌁</span><h3>Piacok és oddsok</h3><p>Megfelelően jogosított adatforrásokból származó, időbélyegzett piacfigyelés és az elavult ajánlások felismerése.</p></article>
+          <article class="feature"><span class="feature-icon" aria-hidden="true">◈</span><h3>Modellek és értékelés</h3><p>Valószínűségi becslések, várható érték, bizonytalanság és dokumentált döntési indokok. Ha nincs megfelelő lehetőség, a NO_BET is eredmény.</p></article>
+          <article class="feature"><span class="feature-icon" aria-hidden="true">▤</span><h3>Napló és eredmények</h3><p>A kiadott AI-ajánlások és a felhasználó által ténylegesen rögzített fogadások elkülönített, visszakereshető nyilvántartása.</p></article>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="wrap"><div class="section-intro"><span class="kicker">A rendszer logikája</span><h2>Négy lépés, egy követhető folyamat.</h2><p>A folyamat tervezett célarchitektúra; az egyes integrációk és automatizmusok fejlesztés és bizonyítás alatt állnak.</p></div>
+        <div class="process"><div class="process-step"><span class="process-num">01 / ADAT</span><h3>Megfigyelés</h3><p>Piacok, mérkőzések és ellenőrizhető oddsforrások.</p></div><div class="process-step"><span class="process-num">02 / MODELL</span><h3>Értékelés</h3><p>Valószínűség, várható érték és kockázati szűrés.</p></div><div class="process-step"><span class="process-num">03 / NAPLÓ</span><h3>Rögzítés</h3><p>Időponttal és forrással megőrzött ajánlási döntés.</p></div><div class="process-step"><span class="process-num">04 / KIMUTATÁS</span><h3>Visszamérés</h3><p>Eredmények, naplózott tétek, időszaki mutatók.</p></div></div>
+      </div>
+    </section>
+    <section class="section section-muted" id="alkalmazas">
+      <div class="wrap split"><div><span class="kicker">Tervezett alkalmazás</span><h2>Áttekinthető felület a bonyolult rendszer előtt.</h2><p class="soft">A végleges FOGADÁS AI privát, telefonon és számítógépen használható alkalmazásként készül. A mindennapi nézetben nem a technikai háttér, hanem a döntések és az eredmények lesznek előtérben.</p><ul class="bullet-list"><li>Mai, ellenőrzött fogadási lehetőségek és frissességjelzés.</li><li>Görgethető naptár, napi és időszaki eredmények.</li><li>Elkülönített virtuális AI-statisztikák és személyes fogadásnapló.</li><li>Jogosultsághoz kötött fiókok, beállítható értesítések.</li></ul></div><aside class="privacy-card"><span class="small-label">Állapot</span><h3>Fejlesztési és tesztüzem</h3><p>Az alkalmazás még nem kész, nyilvánosan igénybe vehető fogadási termék. Valódi fogadás-végrehajtás nem engedélyezett a rendszerben. A kutatási eredményesség és nyereségesség nincs bizonyítva.</p><div class="notice">Az oldal tájékoztató célú; nem kínál fogadást, nem kezel befizetést, és nem ad élő tippet.</div></aside></div>
+    </section>
+    <section class="section" id="biztonsag"><div class="wrap split"><div><span class="kicker">Átlátható működés</span><h2>Az adatok kezelése is a rendszer része.</h2><p class="soft">A projekt Google Drive, Google Sheets és Google Apps Script alapú komponenseket is használ, a fejlesztőkód GitHubon található. A Google API-hozzáférés és az egyes személyes adatok kezelésének pontos leírását az adatvédelmi tájékoztató tartalmazza majd a végleges konfiguráció alapján.</p><a class="text-link" href="adatvedelem.html">Adatvédelmi tájékoztató →</a></div><div class="privacy-card"><span class="small-label">Alapelv</span><h3>Nem az ígéret, hanem a bizonyíték számít.</h3><p>Az AI-ajánlás nem garantált nyereség. A becsült és a realizált eredményt külön kell kezelni; a megfelelő adatminőség, elszámolás és hozzáférés-védelem alapkövetelmény.</p></div></div></section>
+    <div class="wrap"><div class="cta"><span class="kicker">FOGADÁS AI</span><h2>A fejlesztés folytatódik.</h2><p>Jelenleg privát kutatási és tesztprojekt. Ez a nyilvános oldal a rendszert és az adatkezelés alapelveit ismerteti.</p><a href="adatvedelem.html" class="btn btn-main">Adatvédelmi információk →</a></div></div>
+  </main>
+  <footer class="site-footer"><div class="wrap footer-inner"><div><a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">F</span> FOGADÁS <span class="green">AI</span></a><div class="footer-copy">© <span id="year">2026</span> FOGADÁS AI · Fejlesztés alatt · TEST / SHADOW</div></div><nav class="foot-links" aria-label="Jogi oldalak"><a href="adatvedelem.html">Adatvédelem</a><a href="felhasznalasi-feltetelek.html">Felhasználási feltételek</a><a href="impresszum.html">Impresszum</a></nav></div></footer>
+</body></html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="hu"><head>
+<meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><meta content="#080f18" name="theme-color"/>
+<meta content="FOGADÁS AI – tájékoztatás a fejlesztés alatt álló sportfogadási kutatási projektről." name="description"/>
+<title>Adatvédelmi tájékoztató · FOGADÁS AI</title><link href="favicon.svg" rel="icon" type="image/svg+xml"/><link href="styles.css" rel="stylesheet"/><script defer="" src="script.js"></script>
+</head><body><header class="site-header"><div class="wrap nav"><a aria-label="FOGADÁS AI – Kezdőlap" class="brand" href="index.html"><span class="brand-mark">F</span> FOGADÁS <span class="green">AI</span></a><button aria-controls="primary-navigation" aria-expanded="false" aria-label="Menü megnyitása" class="menu-toggle">☰</button><nav aria-label="Fő navigáció" class="nav-links" id="primary-navigation"><a href="index.html">Kezdőlap</a><a href="adatvedelem.html">Adatvédelem</a><a href="felhasznalasi-feltetelek.html">Feltételek</a><a class="mini-btn" href="impresszum.html">Impresszum ↗</a></nav></div></header>
+<main class="wrap legal-wrap"><a class="back" href="index.html">← Vissza a kezdőlapra</a><p class="muted-label" style="margin:27px 0 0">FOGADÁS AI / Tájékoztatás</p><h1>Adatvédelmi tájékoztató</h1><p class="intro">A nyilvános fogadasai.de weboldal adatkezelése, valamint az elkülönülő, fejlesztés alatt álló FOGADÁS AI alkalmazás Google API-használatának ismertetése.</p>
+
+<article class="legal-panel">
+<h2>1. Adatkezelő és kapcsolattartás</h2>
+<p><strong>Név:</strong> Bánhidi Bertalan (magánszemély)<br/>
+<strong>Postai cím:</strong> Unterdorfstr. 2, 87700 Memmingen, Deutschland<br/>
+<strong>E-mail:</strong> <a href="mailto:bertalan.banhidi@gmail.com">bertalan.banhidi@gmail.com</a></p>
+<h2>2. Mi történik a nyilvános weboldalon?</h2>
+<p>Ez a GitHub Pages szolgáltatásban megjelenő, statikus bemutatkozó oldal nem működtet saját belépést, regisztrációt, kommentfelületet vagy fizetési rendszert. A közzétett HTML/CSS/JavaScript forrás nem tartalmaz analitikai követőkódot, hirdetési trackert vagy külső betűkészletet. A weboldal meglátogatása nem jogosít hozzáférést a látogató Google-fiókjához.</p>
+<p>Az oldal betöltésekor a böngésző kapcsolatot létesít a tárhelyet nyújtó GitHub Pages kiszolgálóival. A szolgáltató technikai kapcsolódási adatokat (például IP-címet, lekérés idejét és böngészőadatokat) kezelhet a szolgáltatás működtetése és biztonsága érdekében. A GitHub által végzett ilyen adatkezelés részleteit a <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener noreferrer" target="_blank">GitHub adatvédelmi tájékoztatója</a> ismerteti. A statikus oldal üzemeltetője a GitHub technikai naplóinak tényleges megőrzési idejét nem határozza meg.</p>
+<p>A nyilvános oldal biztonságos elérhetősége és üzemeltetése az adatkezelő jogos érdekén alapulhat (GDPR 6. cikk (1) f); a szolgáltatói adatkezelésre a GitHub saját feltételei is vonatkoznak.</p>
+<h2>3. E-mailes megkeresések</h2>
+<p>Ha e-mailben írsz, a megadott e-mail-címet és az üzenet tartalmát a kérdés megválaszolásához, kapcsolattartáshoz és szükség esetén jogi igények kezeléséhez használjuk. Az ilyen üzeneteket a kezelésükhöz szükséges ideig, illetve a vonatkozó megőrzési kötelezettségek szerint tartjuk meg. Az e-mail szolgáltatója a Google. Nincs hírlevélre történő automatikus feliratkozás.</p>
+<h2>4. Google OAuth – a különálló FOGADÁS AI háttérrendszer</h2>
+<p>A nyilvános tájékoztató oldal NEM Google OAuth-bejelentkezési oldal. A különálló, fejlesztés alatt álló FOGADÁS AI kutatási háttérrendszer viszont Google Drive, Google Sheets és Google Apps Script API-kat használ a projekthez tartozó fájlok, táblázatok, Apps Script projektek és telepítések kezelésére. Az API-kérésekhez Google-fiók tulajdonosának kifejezett engedélye szükséges.</p>
+<p>Az <code>fogadas-vnext-test</code> OAuth projektben 2026. október 16-án a következő engedélykörök szerepeltek. Ezek az elméletileg megengedett hozzáférés maximumát, nem minden esetben a ténylegesen elvégzett műveleteket jelentik:</p>
+<ul>
+<li><code>https://www.googleapis.com/auth/script.deployments</code> – Apps Script telepítések létrehozása és módosítása.</li>
+<li><code>https://www.googleapis.com/auth/script.projects</code> – Apps Script projektek létrehozása és módosítása.</li>
+<li><code>https://www.googleapis.com/auth/script.projects.readonly</code> – Apps Script projektek megtekintése.</li>
+<li><code>https://www.googleapis.com/auth/script.external_request</code> – Apps Script külső HTTP-kapcsolatok.</li>
+<li><code>https://www.googleapis.com/auth/script.scriptapp</code> – Apps Script futtatási engedélyek kezelése.</li>
+<li><code>https://www.googleapis.com/auth/spreadsheets</code> – Google Táblázatok megtekintése, létrehozása és módosítása.</li>
+<li><code>https://www.googleapis.com/auth/drive</code> – Google Drive fájlokhoz való széles körű hozzáférés, beleértve a módosítást és törlést.</li>
+</ul>
+<p>Az API-hozzáférések célja a FOGADÁS AI saját kutatási adatai, konfigurációi, eredményei és futásbizonyítékai kezelése. A Drive- és Táblázatok-adatok a Google szolgáltatásaiban, a rendszer technikai feldolgozásához szükséges hozzáférésekkel maradnak kezelve. A projekt hozzáférésével megszerzett privát Google-fájltartalmat nem tesszük közzé ezen a GitHub Pages oldalon. A Google-engedélyeket a fióktulajdonos a Google-fiók biztonsági beállításainál visszavonhatja; ez megszakíthatja a háttérrendszer működését.</p>
+<p>Az OAuth és Google API-adatok felhasználása a <a href="https://developers.google.com/terms/api-services-user-data-policy" rel="noopener noreferrer" target="_blank">Google API Services User Data Policy</a> és a vonatkozó Limited Use feltételek keretében történhet. A háttérrendszer a nyilvános oldal megnyitásától nem szerez hozzáférést a látogató Google-fiókjához.</p>
+<h2>5. A későbbi meghívásos privát alkalmazás</h2>
+<p>A fejlesztés célja legfeljebb négy kezdeti, meghívott felhasználó Google-fiókos beléptetése. A személyes bejelentkezéshez tervezett azonosítási engedélyek elkülönülnek a fent felsorolt háttérszolgáltatási engedélyektől. A külön privát alkalmazás egyéni fogadásnaplót, bankrolladatokat és eredményeket is kezelhet majd; ennek élesítése és részletes adatkezelési tájékoztatása az alkalmazás indulása előtt külön szükséges. A jelen nyilvános oldalon ilyen személyes nyilvántartás nem működik.</p>
+<h2>6. Továbbítás, megőrzés, biztonság</h2>
+<p>A statikus oldal technikai kiszolgálását a GitHub Pages végzi. A FOGADÁS AI Google-alapú kutatási infrastruktúráját Google-szolgáltatások támogatják. A jelen oldal nem tartalmaz privát fogadásnaplót, titkos Google OAuth-tokent vagy más felhasználók Drive-tartalmát. A privát háttérrendszerhez tartozó adatok kezelése és megőrzési szabályai a rendszer tényleges telepítéséhez kötődnek; az alkalmazás éles használata előtt ezeket külön, pontosan dokumentálni kell. Ez a tájékoztató nem ígér a privát háttérrendszerre általános vagy korlátlan megőrzést.</p>
+<h2>7. Az érintett jogai</h2>
+<p>A vonatkozó feltételekkel kérhető tájékoztatás, hozzáférés, helyesbítés, törlés, korlátozás vagy adathordozhatóság, illetve tiltakozás. A kérelmeket a <a href="mailto:bertalan.banhidi@gmail.com">bertalan.banhidi@gmail.com</a> címen lehet jelezni. Panasz tehető az illetékes adatvédelmi felügyeleti hatóságnál; bajorországi nem közszférabeli adatkezelők esetében jellemzően a <a href="https://www.lda.bayern.de" rel="noopener noreferrer" target="_blank">Bayerisches Landesamt für Datenschutzaufsicht</a> illetékes.</p>
+<h2>8. Pontosság és frissítések</h2>
+<p>A FOGADÁS AI továbbra is fejlesztés és TEST/SHADOW tesztüzem alatt áll; az itt felsorolt széles Google API-engedélyek nem részei a nyilvános weboldalnak. A privát alkalmazás adatkategóriái és tényleges működése az induláskor további, felhasználók számára elérhető részletes tájékoztatást igényelhet. A tájékoztatót a szolgáltatások és az adatkezelés változásával frissítjük.</p>
+<p><small>Frissítve: 2026. október 16.</small></p>
+</article></main>
+<footer class="site-footer"><div class="wrap footer-inner"><div><a class="brand" href="index.html"><span class="brand-mark">F</span> FOGADÁS <span class="green">AI</span></a><div class="footer-copy">© <span id="year">2026</span> FOGADÁS AI · Fejlesztés alatt</div></div><nav aria-label="Jogi oldalak" class="foot-links"><a href="adatvedelem.html">Adatvédelem</a><a href="felhasznalasi-feltetelek.html">Felhasználási feltételek</a><a href="impresszum.html">Impresszum</a></nav></div></footer></body></html>
